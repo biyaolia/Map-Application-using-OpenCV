@@ -1,0 +1,14 @@
+Source, Destination
+Ralphs,Chick-fil-A
+Ralphs,KFC
+Chick-fil-A,KFC
+KFC,Chipotle
+Chipotle,USC Parking
+USC Parking,Normandie Elementary School
+Chipotle,Normandie Elementary School
+Normandie Elementary School,Leavey Library
+USC Parking,USC Village Gym
+Leavey Library,USC Village Gym
+USC Village Gym,Parking Center
+Parking Center,The Caribbean Apartments
+Normandie Elementary School,Chipotle
