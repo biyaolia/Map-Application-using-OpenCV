@@ -501,66 +501,8 @@ Time taken by function: 5 ms
 <p align="center"><img src="img/Nearby.png" alt="Nearby" width="500"/></p>
 
 
-## Reporting Runtime:
-For each menu item, your program should show the time it took to finish each task.
-
-Please make sure to provide various examples when you report the runtime. For example for topological sort, show an example with few nodes and another example with 10 or more nodes. The idea is to see how your runtime grows as input size grows.
-
 ## Runtime Comparison
 For shortest path algorithms, you should compare solving the same problem with different algorithms (Dijkstra and Bellman-Ford). Please show the results on at least 3 different examples.
 
 Similarly for TSP problem, please provide various examples that show the runtime comparison. In particular, you should show at what point using the exhaustive search is not practical and compare the same input with the heuristic implementation.
-
-
-## Report and Rubrics:
-
-Your final project should be checked into Github. The README of your project is your report. 
-
-### Report:
-
-Your REPORT.md file should include four sections:
-Please create a new REPORT.md file and write your report there.
-
-1. High-level overview of your design (Use diagrams and pictures for your data structures).
-2. Detailed description of each function and its time complexity.
-3. Time spent for each function.
-4. Discussion, conclusion, and lessons learned.
-
-### Rubrics:
-
-1. Implementation of Auto complete: 5 points. (Phase 1)
-2. Implementation of GetPosition: 5 points. (Phase 1)
-3. Implementation of EditDistance: 10 points. (Phase 1)
-4. Implementation of shortest path: 15 points. (Phase 2)
-   1. Bellman-Ford implementation
-   2. Dijkstra implementation
-   3. Plot two paths, and measure and report time spent by two algorithms.
-5. Implement of Cycle detection: 10 points. (Phase 2)
-   1. Boolean value and draw the cycle if there exists one.
-6. Topological Sort: 10 points. (Phase 2)
-   1. Check whether there exist a topological sort or not
-   2. Return the correct order and plot those point on the map
-7. Implementation of Travelling Trojan: (Phase 3)
-   1. Brute-force: 5 points.
-   2. Brute-force enhanced with early backtracking: 5 points.
-   3. 2-opt: 10 points.
-   4. Animated plot: 5 points.
-8. FindNearby points: 10 points. (Phase 3)
-   1. Return the correct ids and draw the points.
-9. Video presentation and report: 10 points. (Phase 3)
-10. Creating reasonable unit tests: 10 points.
-      1. Three different unit tests for each item.
-11. **Extra credit items**: Maximum of 20 points:
-      1. [3-opt](http://cs.indstate.edu/~zeeshan/aman.pdf): 10 points.
-      2. [Genetic algorithm](https://www.geeksforgeeks.org/traveling-salesman-problem-using-genetic-algorithm/) implementation for Travelling Trojan: 10 points
-      3. Create dynamic and animated UI using [ncurses](https://en.wikipedia.org/wiki/Ncurses): 10 points
-         - Uncomment #define NCURSES in main.cc and mapui.h
-         - Create your menu in DynamicPrintMenu().
-         - You could check https://github.com/ourarash/ncurses_bazel
-         - Please develope your own UI.
-         - Example
-            <p align="center"><img src="img/ncurses example.gif" alt="example" width="500"/></p>
-               
-
-      4. Accurate measurement of your algorithm    runtime using Google Benchmark while sweeping the input size and providing a diagram of how the runtime grows based on the input size: 10 points.
-
+<p align="center"><img src="img/ncurses example.gif" alt="example" width="500"/></p>
