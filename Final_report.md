@@ -1,10 +1,5 @@
-Contributor: 
 
-Biyao Liang @ biyaolia@usc.edu
-
-Manoj Sunkara @ msunkara@usc.edu
-
-In this project we have 7 major functions for our Trojanmap app. 
+In this project we have 7 major functions. 
 
 ![image](https://user-images.githubusercontent.com/97922238/166183514-df1d5d99-4be0-4794-affc-96ba7e8b7ce4.png)
 
@@ -126,13 +121,7 @@ The target location is highlighted as a green dot
 ![Capture](https://user-images.githubusercontent.com/97922238/166183865-5a3b6570-e217-4843-a086-371d070c2881.PNG)
 
 
-
 A UI for the code was created using ncurses :
 
 ![c4b9cbc66c03162f62d9a0880917c9e2266e3d5c](https://user-images.githubusercontent.com/97922238/166185495-729cb660-10d5-4de4-8eee-c873364e5c3f.gif)
 
-
-Lessons learned:
-We practiced our skills in using version control software in collaboration
-Heuristics: sometimes a good solution is enough
-Sometimes the problem is more than finding the 1 correct answer: efficiency, space, stability all play an important role in software engineering. We want to know exactly what we are looking for and not let our vision be clouded by focusing on finding the 1 absolute best answer(even though a lot of times, that is the way.)
